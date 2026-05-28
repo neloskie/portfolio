@@ -1,0 +1,15 @@
+{
+  "name": "ronelo-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Software engineer portfolio for Ronelo S. Sanchez.",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "serve": "node server.js",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
